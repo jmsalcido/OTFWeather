@@ -26,6 +26,12 @@
 {
     [super viewDidLoad];
     
+    // LocationManager
+    _locationManager = [[CLLocationManager alloc] init];
+    _locationManager.delegate = self;
+    _locationManager.distanceFilter = kCLDistanceFilterNone; // Cuando nos movamos?
+    _locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
+    
     // Poner imagen de esperando
     UIImage *imagenEsperando = [UIImage imageNamed:@"espera.png"];
     imagenClima.image = imagenEsperando;
@@ -43,6 +49,9 @@
 
 - (IBAction)obtenerClima:(id)sender
 {
+    // Location Manager used once?
+    [_locationManager startUpdatingLocation];
+    
     // Mostrar mensaje
     NSString *alertaTitle = @"Obteniendo Ciudad";
     NSString *alertaMessage = @"Espera un momento mientras se obtiene la locacion geografica donde te encuentras.";
@@ -61,10 +70,23 @@
     [spinner startAnimating];
     
     // Se realizara la accion de cerrar en 5 segundos (en el release 0, pues tardara lo que tenga que tardar)
-    [self performSelector:@selector(closeAlertaView:) withObject:alertaEsperaView afterDelay:5];
+    [self performSelector:@selector(closeAlertaView:) withObject:alertaEsperaView afterDelay:10];
 }
+
 - (void) closeAlertaView:(UIAlertView *)view
 {
+    // Dejar de usar el location manager
+    [_locationManager stopUpdatingLocation];
+    
     [view dismissWithClickedButtonIndex:0 animated:YES];
+    labelCiudad.text = _otfcity.ciudad;
+}
+
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+{
+    NSLog(@"%@", locations);
+    _otfcity = [[OTFCity alloc] initWithCLLocation:[locations objectAtIndex:0]];
+    [_otfcity obtenCiudad];
+    NSLog(@"%@, %@", _otfcity.latitude, _otfcity.longitude);
 }
 @end
