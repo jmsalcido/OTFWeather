@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0230102168505CF00E28111 /* OTFWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0230101168505CF00E28111 /* OTFWeatherViewController.m */; };
+		C0230105168516FB00E28111 /* OTFOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0230104168516FB00E28111 /* OTFOptionsViewController.m */; };
+		C05C884B16771A0700854AE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05C884A16771A0700854AE4 /* UIKit.framework */; };
+		C05C884D16771A0700854AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05C884C16771A0700854AE4 /* Foundation.framework */; };
+		C05C884F16771A0700854AE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05C884E16771A0700854AE4 /* CoreGraphics.framework */; };
+		C05C885516771A0700854AE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C05C885316771A0700854AE4 /* InfoPlist.strings */; };
+		C05C885716771A0700854AE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C05C885616771A0700854AE4 /* main.m */; };
+		C05C885B16771A0700854AE4 /* OTFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05C885A16771A0700854AE4 /* OTFAppDelegate.m */; };
+		C05C886416771A0700854AE4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05C886216771A0700854AE4 /* MainStoryboard.storyboard */; };
+		C09A722C16786FF300259068 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C09A722916786FF300259068 /* Default-568h@2x.png */; };
+		C09A722D16786FF300259068 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C09A722A16786FF300259068 /* Default@2x.png */; };
+		C09A723316786FFC00259068 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C09A722F16786FFC00259068 /* first.png */; };
+		C09A723416786FFC00259068 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C09A723016786FFC00259068 /* first@2x.png */; };
+		C09A723516786FFC00259068 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C09A723116786FFC00259068 /* second.png */; };
+		C09A723616786FFC00259068 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C09A723216786FFC00259068 /* second@2x.png */; };
+		C09A723A1678704000259068 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C09A72391678704000259068 /* Default.png */; };
+		C09A7242167870B900259068 /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09A7241167870B900259068 /* pattern.jpg */; };
+		C09A72441678814500259068 /* espera.png in Resources */ = {isa = PBXBuildFile; fileRef = C09A72431678814500259068 /* espera.png */; };
+		C09A724C167889DB00259068 /* OTFConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A724B167889DB00259068 /* OTFConstants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0230100168505CF00E28111 /* OTFWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTFWeatherViewController.h; path = Controllers/OTFWeatherViewController.h; sourceTree = "<group>"; };
+		C0230101168505CF00E28111 /* OTFWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTFWeatherViewController.m; path = Controllers/OTFWeatherViewController.m; sourceTree = "<group>"; };
+		C0230103168516FB00E28111 /* OTFOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTFOptionsViewController.h; path = Controllers/OTFOptionsViewController.h; sourceTree = "<group>"; };
+		C0230104168516FB00E28111 /* OTFOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTFOptionsViewController.m; path = Controllers/OTFOptionsViewController.m; sourceTree = "<group>"; };
+		C05C884616771A0700854AE4 /* OTFWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTFWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05C884A16771A0700854AE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C05C884C16771A0700854AE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C05C884E16771A0700854AE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C05C885216771A0700854AE4 /* OTFWeather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OTFWeather-Info.plist"; sourceTree = "<group>"; };
+		C05C885416771A0700854AE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C05C885616771A0700854AE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C05C885816771A0700854AE4 /* OTFWeather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OTFWeather-Prefix.pch"; sourceTree = "<group>"; };
+		C05C885916771A0700854AE4 /* OTFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTFAppDelegate.h; sourceTree = "<group>"; };
+		C05C885A16771A0700854AE4 /* OTFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTFAppDelegate.m; sourceTree = "<group>"; };
+		C05C886316771A0700854AE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C09A722916786FF300259068 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Splash/Default-568h@2x.png"; sourceTree = "<group>"; };
+		C09A722A16786FF300259068 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Splash/Default@2x.png"; sourceTree = "<group>"; };
+		C09A722F16786FFC00259068 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = Resources/Tabs/first.png; sourceTree = "<group>"; };
+		C09A723016786FFC00259068 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "Resources/Tabs/first@2x.png"; sourceTree = "<group>"; };
+		C09A723116786FFC00259068 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = Resources/Tabs/second.png; sourceTree = "<group>"; };
+		C09A723216786FFC00259068 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "Resources/Tabs/second@2x.png"; sourceTree = "<group>"; };
+		C09A72391678704000259068 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Splash/Default.png; sourceTree = "<group>"; };
+		C09A7241167870B900259068 /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pattern.jpg; path = Resources/Backgrounds/pattern.jpg; sourceTree = "<group>"; };
+		C09A72431678814500259068 /* espera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = espera.png; path = Resources/Clima/espera.png; sourceTree = "<group>"; };
+		C09A724A167889DB00259068 /* OTFConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTFConstants.h; sourceTree = "<group>"; };
+		C09A724B167889DB00259068 /* OTFConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTFConstants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C05C884316771A0700854AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05C884B16771A0700854AE4 /* UIKit.framework in Frameworks */,
+				C05C884D16771A0700854AE4 /* Foundation.framework in Frameworks */,
+				C05C884F16771A0700854AE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C05C883B16771A0700854AE4 = {
+			isa = PBXGroup;
+			children = (
+				C05C884916771A0700854AE4 /* Frameworks */,
+				C05C885016771A0700854AE4 /* OTFWeather */,
+				C05C884716771A0700854AE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C05C884716771A0700854AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05C884616771A0700854AE4 /* OTFWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05C884916771A0700854AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C05C884E16771A0700854AE4 /* CoreGraphics.framework */,
+				C05C884C16771A0700854AE4 /* Foundation.framework */,
+				C05C884A16771A0700854AE4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05C885016771A0700854AE4 /* OTFWeather */ = {
+			isa = PBXGroup;
+			children = (
+				C05C887B16771B4600854AE4 /* Controllers */,
+				C05C886216771A0700854AE4 /* MainStoryboard.storyboard */,
+				C05C885916771A0700854AE4 /* OTFAppDelegate.h */,
+				C05C885A16771A0700854AE4 /* OTFAppDelegate.m */,
+				C09A724A167889DB00259068 /* OTFConstants.h */,
+				C09A724B167889DB00259068 /* OTFConstants.m */,
+				C09A722516786F9600259068 /* Resources */,
+				C05C885116771A0700854AE4 /* Supporting Files */,
+			);
+			name = OTFWeather;
+			path = JMSWeather;
+			sourceTree = "<group>";
+		};
+		C05C885116771A0700854AE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C05C885216771A0700854AE4 /* OTFWeather-Info.plist */,
+				C05C885316771A0700854AE4 /* InfoPlist.strings */,
+				C05C885616771A0700854AE4 /* main.m */,
+				C05C885816771A0700854AE4 /* OTFWeather-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C05C887B16771B4600854AE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0230100168505CF00E28111 /* OTFWeatherViewController.h */,
+				C0230101168505CF00E28111 /* OTFWeatherViewController.m */,
+				C0230103168516FB00E28111 /* OTFOptionsViewController.h */,
+				C0230104168516FB00E28111 /* OTFOptionsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C09A722516786F9600259068 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C09A72451678814900259068 /* Clima */,
+				C09A723F1678708D00259068 /* Backgrounds */,
+				C09A722816786FE700259068 /* Splash */,
+				C09A722716786FE200259068 /* Tabs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C09A722716786FE200259068 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				C09A722F16786FFC00259068 /* first.png */,
+				C09A723016786FFC00259068 /* first@2x.png */,
+				C09A723116786FFC00259068 /* second.png */,
+				C09A723216786FFC00259068 /* second@2x.png */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		C09A722816786FE700259068 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C09A72391678704000259068 /* Default.png */,
+				C09A722916786FF300259068 /* Default-568h@2x.png */,
+				C09A722A16786FF300259068 /* Default@2x.png */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		C09A723F1678708D00259068 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				C09A7241167870B900259068 /* pattern.jpg */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		C09A72451678814900259068 /* Clima */ = {
+			isa = PBXGroup;
+			children = (
+				C09A72431678814500259068 /* espera.png */,
+			);
+			name = Clima;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C05C884516771A0700854AE4 /* OTFWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05C887516771A0700854AE4 /* Build configuration list for PBXNativeTarget "OTFWeather" */;
+			buildPhases = (
+				C05C884216771A0700854AE4 /* Sources */,
+				C05C884316771A0700854AE4 /* Frameworks */,
+				C05C884416771A0700854AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTFWeather;
+			productName = JMSWeather;
+			productReference = C05C884616771A0700854AE4 /* OTFWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C05C883D16771A0700854AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OTF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = OTFusion;
+			};
+			buildConfigurationList = C05C884016771A0700854AE4 /* Build configuration list for PBXProject "OTFWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C05C883B16771A0700854AE4;
+			productRefGroup = C05C884716771A0700854AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C05C884516771A0700854AE4 /* OTFWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C05C884416771A0700854AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05C885516771A0700854AE4 /* InfoPlist.strings in Resources */,
+				C05C886416771A0700854AE4 /* MainStoryboard.storyboard in Resources */,
+				C09A722C16786FF300259068 /* Default-568h@2x.png in Resources */,
+				C09A722D16786FF300259068 /* Default@2x.png in Resources */,
+				C09A723316786FFC00259068 /* first.png in Resources */,
+				C09A723416786FFC00259068 /* first@2x.png in Resources */,
+				C09A723516786FFC00259068 /* second.png in Resources */,
+				C09A723616786FFC00259068 /* second@2x.png in Resources */,
+				C09A723A1678704000259068 /* Default.png in Resources */,
+				C09A7242167870B900259068 /* pattern.jpg in Resources */,
+				C09A72441678814500259068 /* espera.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C05C884216771A0700854AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05C885716771A0700854AE4 /* main.m in Sources */,
+				C05C885B16771A0700854AE4 /* OTFAppDelegate.m in Sources */,
+				C09A724C167889DB00259068 /* OTFConstants.m in Sources */,
+				C0230102168505CF00E28111 /* OTFWeatherViewController.m in Sources */,
+				C0230105168516FB00E28111 /* OTFOptionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C05C885316771A0700854AE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05C885416771A0700854AE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C05C886216771A0700854AE4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05C886316771A0700854AE4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05C887316771A0700854AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C05C887416771A0700854AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C05C887616771A0700854AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMSWeather/OTFWeather-Prefix.pch";
+				INFOPLIST_FILE = "JMSWeather/OTFWeather-Info.plist";
+				PRODUCT_NAME = OTFWeather;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C05C887716771A0700854AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMSWeather/OTFWeather-Prefix.pch";
+				INFOPLIST_FILE = "JMSWeather/OTFWeather-Info.plist";
+				PRODUCT_NAME = OTFWeather;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05C884016771A0700854AE4 /* Build configuration list for PBXProject "OTFWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05C887316771A0700854AE4 /* Debug */,
+				C05C887416771A0700854AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05C887516771A0700854AE4 /* Build configuration list for PBXNativeTarget "OTFWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05C887616771A0700854AE4 /* Debug */,
+				C05C887716771A0700854AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C05C883D16771A0700854AE4 /* Project object */;
+}
